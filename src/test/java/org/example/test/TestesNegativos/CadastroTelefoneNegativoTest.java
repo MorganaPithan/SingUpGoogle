@@ -21,7 +21,7 @@ public class CadastroTelefoneNegativoTest {
 
 
     @Test
-    public void testConfirmarSenha() {
+    public void testTelefone() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://accounts.google.com/SignUp?hl=pt");
