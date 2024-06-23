@@ -11,7 +11,7 @@ public class CadastroMensagemTest {
     static CadastroMensagem cadastroMensagem;
 
     @Test
-    public void testEmail() {
+    public void testMensagem() {
         System.setProperty("webdriver.chrome.driver", "C:\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://qi.edu.br/ouvidoria/");
